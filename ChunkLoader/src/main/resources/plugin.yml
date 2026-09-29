@@ -1,0 +1,15 @@
+name: ChunkLoader
+version: 1.0.0
+main: dev.chunkloader.ChunkLoaderPlugin
+api-version: '26.2'
+description: Chunkloader item - fuel powered
+commands:
+  chunkloader:
+    description: Give a chunkloader item
+    usage: /chunkloader give [player] [size 1-5] [minutes]
+    aliases: [cl]
+permissions:
+  chunkloader.give:
+    default: op
+  chunkloader.use:
+    default: true
